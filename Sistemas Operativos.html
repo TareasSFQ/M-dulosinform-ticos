@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Operativos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 6px;
+            text-align: center;
+        }
+        nav {
+            background-color:#333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 10PX;
+            margin: 0;
+            background-color: #444;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        #button {
+            padding: 20px;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        #button li {
+            margin-right: 10px;
+        }
+
+        #button li a {
+            font-family: Arial;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #f8fafc;
+            color: #141010;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #button li a:hover {
+            background-color: #2586d7;
+        }
+        frameset {
+            border: none;
+        }
+
+        frame {
+            border: none;
+            width: 100%;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color:#C0C0C0;
+        }
+
+        footer {
+            background-color:#f2f2f2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #button li {
+            margin-right: 10px;
+        }
+
+        #button li a {
+            font-family: Arial;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #f8fafc;
+            color: #141010;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #button li a:hover {
+            background-color: #2586d7;
+        }
+        #navegador li {
+            margin-right: 10px;
+        }
+        #navegador li a {
+            font-family: Arial;
+            font-size: 10px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: skyblue;
+            color: #141010;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #navegador li a:hover {
+            background-color: #81df4a;
+        }
+        
+    </style>
+</head>
+<header>
+    <h1>Sistemas Operativos</h1>
+    <img src="cmd.gif" width="150px" height="100px">
+</header>
+<nav>
+    <ul id="button">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="soporte.html">Soporte Técnico</a></li>
+        <li><a href="Sistemas Operativos.html">Sistemas Operativos</a></li>
+        <li><a href="diseño.html">Diseño Web</a></li>
+        <li><a href="progrmcion.html">Programación</a></li>
+    </ul>
+  </nav>
+<nav>
+    <ul id="navegador">
+        <li><a href="#cmd">¿Qué es CMD?</a></li>
+        <li><a href="#comandos-basicos">Comandos Básicos</a></li>
+        <li><a href="#formas-ingresar">Formas de Ingresar a CMD</a></li>
+        <li><a href="#comandos-mas-usados">Comandos más usados en Windows</a></li>
+    </ul>
+</nav>
+<body>
+    <section id="cmd">
+        <h2>¿Qué es CMD?</h2>
+        <p>El Símbolo del Sistema (CMD) es un interprete de líneas de comando del sistema operativo Windows.</p>
+        <p>CMD (acrónimo de Command) es el intérprete de la línea de comandos de los sistemas operativos Windows. Es el análogo a los Shells de Unix, como por ejemplo, Bash, y le da al usuario la opción de realizar operaciones usando comandos.</p>
+        <img src="Interfaz de cmd.png">
+    </section>
+    <section id="comandos-basicos">
+        <h2>Comandos Básicos</h2>
+        <p>Aquí puedes encontrar algunos ejemplos de comandos básicos de CMD:</p>
+        <table border="2px">
+            <tr>
+                <td>CD</td>
+                <td>Sirve para regresar al directorio anterior</td>
+            </tr>
+            <tr>
+                <td>REN</td>
+                <td>Sirve para renombrar los archivos o directorios</td>
+            </tr>
+            <tr>
+                <td>CLS</td>
+                <td>Sirve para limpiar la pantalla.</td>
+            </tr>
+            <tr>
+                <td>DEL</td>
+                <td>Borra el archivo o carpeta que indiques tras un espacio.</td>
+            </tr>
+            <tr>
+                <td>DIR</td>
+                <td>Muestra todo el contenido de un directorio (carpeta).</td>
+            </tr>
+            <tr>
+                <td>TREE</td>
+                <td>Muestra el árbol de carpetas de la carpeta que le indiques.</td>
+            </tr>
+            <tr>
+                <td>MD</td>
+                <td>Crea una carpeta o directorio.</td>
+            </tr>
+            <tr>
+                <td>MOVE</td>
+                <td>Te permite mover un archivo de un directorio a otro.</td>
+            </tr>
+            <tr>
+                <td>DATE</td>
+                <td>Permite ver o cambiar la fecha del equipo.</td>
+            </tr>
+            <tr>
+                <td>FIND</td>
+                <td> Busca una cadena de texto en uno o más archivos.</td>
+            </tr>
+            <tr>
+                <td>EXIT</td>
+                <td>Cierra la ventana de la consola de Windows.</td>
+            </tr>
+            <tr>
+                <td>HELP</td>
+                <td>	
+                    Muestra todos los comandos que hay disponibles, poniendo en cada uno una breve descripción en inglés.</td>
+            </tr>
+        <tr>
+            <td>FORMAT</td>
+            <td>Mucho cuidado con este último comando básico, porque sirve para formatear la unidad</td>
+        </tr>
+        <tr>
+            <td>TYPE</td>
+            <td>Te permite crear un archivo desde la propia ventana de comandos.</td>
+        </tr>
+    </table>
+    </section>
+
+    <section id="formas-ingresar">
+        <h2>Formas de ingresar a Cmd</h2>
+        <h3>Forma 1:Usando el atajo de teclado</h3>
+        <table border="2px">
+            <tr>
+                <td><li>Mantén presionada la tecla de Windows en tu teclado y presiona la tecla R para abrir el cuadro de diálogo Ejecutar.</li></td>
+            </tr>
+            <tr>
+                <td><li>Escribe "cmd" en el cuadro de texto y presiona Enter o haz clic en "Aceptar".</li></td>
+            </tr>
+            <tr>
+                <td><li>Se abrirá una ventana del símbolo del sistema.</li></td>
+            </tr>
+        </table><br>
+        <img src="Atajo 2.png">
+        <h3>Forma 2:Usando el menú inicio</h3>
+        <table border="2px">
+            <tr>
+                <td><li>Haz clic en el botón de inicio (generalmente en la esquina inferior izquierda de la pantalla).</li></td>
+            </tr>
+            <tr>
+                <td><li>Escribe "cmd" en el cuadro de búsqueda y presiona Enter.</li></td>
+            </tr>
+            <tr>
+                <td><li>Se abrirá una ventana del símbolo del sistema</li></td>
+            </tr>
+        </table><br>
+        <img src="Atajo.jpg">
+    </section>
+    <section id="comandos-mas-usados">
+        <h2>Comandos de Cmd más usados en Windows</h2>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/bO5SCBAWAM8?si=Dn_84XdNxs_hQf9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+    </section>
+</body>
+</html>
+

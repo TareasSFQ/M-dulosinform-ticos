@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulos Informáticos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color:#222222;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color:#333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .module {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .module h2 {
+            margin-top: 0;
+        }
+
+        .module p {
+            margin-bottom: 10px;
+        }
+
+        #button {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        #button li {
+            margin-right: 10px;
+        }
+
+        #button li a {
+            font-family: Arial;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #f8fafc;
+            color: #141010;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #button li a:hover {
+            background-color: #2586d7;
+        }
+
+        footer {
+            background-color: #2175bc;
+            color: #fff;
+            padding: 10px 0;
+            width: 100%;
+        }
+        #columna{
+            float:right;
+            width: 200px;
+            margin: 20px 0px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align:left;
+        }
+        .modul{                  
+            background-color: #f9f9f9;          
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }  
+        marquee{
+            color: #000000;
+            font-size: 40px;
+            font-family:'Courier New', Courier, monospace
+        }
+        .i{
+            text-align:left;
+            background: goldenrod;
+            border: #000000 solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Módulos Informáticos</h1>
+        <img src="robot.gif" width="150px" height="100px">
+    </header><br>
+    <marquee behavior="right">BIENVENIDOS</marquee>
+    <nav>
+        <ul id="button">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="soporte.html">Soporte Técnico</a></li>
+            <li><a href="Sistemas Operativos.html">Sistemas Operativos</a></li>
+            <li><a href="diseño.html">Diseño Web</a></li>
+            <li><a href="progrmcion.html">Programación</a></li>
+        </ul>
+    </nav>
+    <aside id="columna">
+        <blockquote><a href="#Inicio">Inicio</a></blockquote>
+        <blockquote><a href="#SoporteTecnico">Soporte Técnico</a></blockquote>
+        <blockquote><a href="#SistemasOperativos">Sistemas Operativos</a></blockquote>
+        <blockquote><a href="#DisenoWeb">Diseño Web</a></blockquote>
+        <blockquote><a href="#Programacion">Programación</a></blockquote>
+    </aside>
+        <div class="container">
+            <div class="modul">
+            <h2>Área Informática</h2>
+            <p>Ciencia que estudia cómo se puede almacenar, procesar y transmitir la información mediante sistemas de computación de manera automática</p>
+            </div>
+        </div>   
+    <div class="container">
+        <div id="SoporteTecnico" class="module">
+            <h2>Soporte Técnico</h2>
+            <p> Área que proporciona asistencia a los usuarios al tener algún problema al utilizar un producto o servicio, ya sea este el hardware o software de una computadora, de un servidor de Internet, de los periféricos, o de cualquier otro equipo o dispositivo.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7WPmcdbiFRU?si=3QoA5AKWaSIF-1Eu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style="max-width:100%" src="https://wordwall.net/es/embed/0c70ac14199240758f2ab4953a7aea12?themeId=1&templateId=3&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="i">INICIO</a>
+        </div>
+        <div id="SistemasOperativos" class="module">
+            <h2>Sistemas Operativos</h2>
+            <p>En esta asignatura los estudiantes comprendan las funciones que desempeñan los sistemas operativos, así como las razones de diseño que determinan su estructura.</p>
+            <table border="2px">
+                <tr>
+                    <td colspan="2">Cmd es un interprete de líneas de comando del sistema operativo Windows</td>
+                </tr>
+                <tr>
+                    <td>CD</td>
+                    <td>Sirve para regresar al directorio anterior</td>
+                </tr>
+                <tr>
+                    <td>REN</td>
+                    <td>Sirve para renombrar los archivos o directorios</td>
+                </tr>
+                <tr>
+                    <td>TREE</td>
+                    <td>Muestra el árbol de carpetas de la carpeta que le indiques.</td>
+                </tr>
+            </table>
+            <br>
+            <iframe style="max-width:100%" src="https://wordwall.net/es/embed/641f82e68e24466ebf3378b41ce53765?themeId=1&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="i">INICIO</a>
+        </div>
+        <div id="DisenoWeb" class="module">
+            <h2>Diseño Web</h2>
+            <p>Área enfocada en el desarrollo de interfaces digitales, como el diseño de sitios y aplicaciones para web. Para ello, los diseñadores web crean las páginas utilizando lenguajes de marcado como HTML.</p>
+            <iframe style="max-width:100%" src="https://wordwall.net/embed/5ee06be6bfd0418cbf5e34cdf7bc4b2a?themeId=1&templateId=36&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="i">INICIO</a>
+        </div>
+        <div id="Programacion" class="module">
+            <h2>Programación</h2>
+            <p>En esta asignatura se puede aprender a crear software, el cual después será ejecutado de manera directa por el hardware de la computadora, o a través de otro programa, para desempeñar diversas labores para las cuales fue diseñado.</p>
+            <iframe style="max-width:100%" src="https://wordwall.net/es/embed/d639bddf331b49e2aa6a00dedd754507?themeId=1&templateId=3&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="i">INICIO</a>
+        </div>
+    </div>
+    <footer>
+        <p>Creadores: Brithany Adriano, Jhonatan Fernández y Emily Pastaz | 2 Bachillerato Técnico</p>
+    </footer>
+</body>
+</html>
+
+
